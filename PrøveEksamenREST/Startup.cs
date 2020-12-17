@@ -25,6 +25,13 @@ namespace PrøveEksamenREST
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+
+            services.AddCors(options =>
+                {
+                    options.AddPolicy("AllowAnyOrigin",
+                        builder => builder.AllowAnyMethod().AllowAnyHeader().AllowAnyOrigin());
+                });
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -37,6 +44,8 @@ namespace PrøveEksamenREST
 
             app.UseRouting();
 
+            app.UseCors("AllowAnyOrigin");
+            
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

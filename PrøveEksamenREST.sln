@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrøveEksamenREST", "PrøveEksamenREST\PrøveEksamenREST.csproj", "{5F5A6E70-5E60-4964-9962-DEA6282D9172}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrøveEksamenREST", "PrøveEksamenREST\PrøveEksamenREST.csproj", "{5F5A6E70-5E60-4964-9962-DEA6282D9172}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModelLib", "ModelLib\ModelLib.csproj", "{9171CCDC-5E31-41CC-B17F-5584295913E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrøveEksamenRESTTests", "PrøveEksamenRESTTests\PrøveEksamenRESTTests.csproj", "{BF935CBB-C6D1-4FE4-9A5A-5120728B8879}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UDPSender", "UDPSender\UDPSender.csproj", "{E8815B71-A395-4C97-994E-C924C0C530F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UDPReciever", "UDPReciever\UDPReciever.csproj", "{53632575-7C86-4E01-9054-0898AD060694}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{5F5A6E70-5E60-4964-9962-DEA6282D9172}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F5A6E70-5E60-4964-9962-DEA6282D9172}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F5A6E70-5E60-4964-9962-DEA6282D9172}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9171CCDC-5E31-41CC-B17F-5584295913E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9171CCDC-5E31-41CC-B17F-5584295913E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9171CCDC-5E31-41CC-B17F-5584295913E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9171CCDC-5E31-41CC-B17F-5584295913E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF935CBB-C6D1-4FE4-9A5A-5120728B8879}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF935CBB-C6D1-4FE4-9A5A-5120728B8879}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF935CBB-C6D1-4FE4-9A5A-5120728B8879}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF935CBB-C6D1-4FE4-9A5A-5120728B8879}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8815B71-A395-4C97-994E-C924C0C530F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8815B71-A395-4C97-994E-C924C0C530F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8815B71-A395-4C97-994E-C924C0C530F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8815B71-A395-4C97-994E-C924C0C530F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53632575-7C86-4E01-9054-0898AD060694}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53632575-7C86-4E01-9054-0898AD060694}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53632575-7C86-4E01-9054-0898AD060694}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53632575-7C86-4E01-9054-0898AD060694}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
